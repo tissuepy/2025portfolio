@@ -1,0 +1,99 @@
+/* Center the entire UX projects container */
+.ux-projects-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1000px; /* Ensures content doesn’t stretch too far */
+  padding: 40px;
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Keep the navigation bar centered */
+.nav-bar2 {
+  display: flex;
+  margin-top: 75px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+/* Ensures project list is properly centered */
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 0px;
+  margin-top: 150px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Fix positioning of project items */
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  background-color: #313131;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 900px; /* Prevents stretching */
+  transition: background-color 0.3s ease;
+}
+
+  
+  .nav-item {
+    margin: 0 10px; /* Adds spacing between nav items */
+    color: #ffffff;
+    font-weight:normal;
+  }
+  
+  .divider {
+    margin: 0 10px; /* Adds spacing around the divider */
+  }
+  
+  .nav-line {
+    width: 110px;
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin-left: 10px;
+  }
+  
+  
+  .project-number {
+    color: rgb(255, 43, 43);
+    font-size: 1.3rem;
+  }
+  
+  .project-name {
+    color: rgb(255, 255, 255); /* White color for text */
+  }
+  
+  /* Reduced length of the line */
+  .project-line {
+    width: 650px; /* Set a specific width to control the length of the line */
+    height: 1px;
+    background-color: #ccc; /* Light grey color for the line */
+    margin-left: 10px; /* Space before the line */
+  }
+  
+  /* Ensure the line doesn't stretch */
+  .project-year {
+    color: rgb(255, 255, 255); /* White color for the year */
+    font-weight: normal;
+  }
+
+.nav-item:hover {
+    color: rgb(255, 21, 21);
+
+}

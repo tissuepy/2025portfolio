@@ -1,0 +1,71 @@
+/* Ensure the entire container is centered */
+.portfolio-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 900px;
+  width: 100%;
+  padding: 100px;
+}
+
+/* Center header content */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 850px;
+}
+
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #00000025;
+  color: #ffffff;
+  border-color: #ffffff
+}
+
+
+.heading {
+  font-size: 2.5rem;
+  font-family: serif;
+}
+
+.text-block {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  max-width: 900px;
+}
+
+.underline {
+  text-decoration: underline dotted;
+  color: rgb(255, 48, 48);
+}
+
+.underline:hover {
+  color:  rgb(255, 48, 48);
+}
+
+.link { 
+  color: rgb(165, 165, 165);
+  font-size: 1.2rem;
+
+}
+
+.link:hover {
+  color: rgb(255, 0, 0); /* Change to a darker shade of blue on hover */
+}
+
+.coloralt {
+  color: rgb(201, 0, 0); 
+}
+
+
