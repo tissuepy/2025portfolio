@@ -12,10 +12,10 @@ const PortfolioText = () => {
   </nav>
 </div>
       
-      <p className="text-block">
+<p className="text-block">
         I am a product designer and data scientist passionate about creating intuitive, data-driven solutions that enhance user experiences. 
-        Previously, I worked at <a href="#" className="underline">Stamford Health</a> where I analyzed cancer patient data using machine learning classification models for chemotherapy drug treatments.
-        Currently, I am a UX Researcher & Designer at <a href="#" className="underline">Sandbox</a> where I'm exploring how specific product design decisions impact user behavior and response.
+        Previously, I worked at <a href="https://www.stamfordhealth.org/care-treatment/research/" className="underline">Stamford Health</a> where I analyzed cancer patient data using machine learning classification models for chemotherapy drug treatments.
+        Currently, I am a UX Researcher & Designer at <a href="https://www.sandboxnu.com/" className="underline">Sandbox</a> where I'm exploring how specific product design decisions impact user behavior and response.
       </p>
       
       <p className="text-block">
