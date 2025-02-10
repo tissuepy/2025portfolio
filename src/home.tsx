@@ -28,8 +28,8 @@ const PortfolioText = () => {
         <a href="https://www.linkedin.com/in/nitishgannu/" className="footer-link link">LINKEDIN</a> / 
         <a href="https://github.com/tissuepy" className="footer-link link"> GITHUB</a> / 
         <a href="https://easy-iron-95a.notion.site/UX-Design-Projects-19534c722e428091bdd8cec96de8dd65" className="footer-link link"> NOTION</a> / 
-        <a href="#" className="footer-link link"> MEDIUM</a> /
-        <a href="#" className="footer-link link"> PHOTOS</a>
+        <a href="https://drive.google.com/drive/folders/1I_xEZgdQmrSTr0WnPdEhSLVqXDFmufz9?usp=drive_link" className="footer-link link"> RESUME</a> /
+        <a href="https://vsco.co/nitissue/gallery" className="footer-link link"> PHOTOS</a>
       </footer>
     </div>
   );
