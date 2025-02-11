@@ -6,14 +6,17 @@ const UXProjects = () => {
     <div className="ux-projects-container">
       <nav className="nav-bar2">
         <span className="nav-item">
-          <Link to="/" className="footer-link link">HOME</Link>
+          <Link to="/" className="nav-item">HOME</Link>
         </span>
         <span className="divider">//</span>
-        <span className="nav-item">UX PROJECTS</span>
+        <span className="nav-item">PROJECTS</span>
         <div className="nav-line"></div>
       </nav>
 
       <div className="project-list">
+
+      <h1 className="heading"> ux <a href="#" className="staricon">✶</a> projects</h1>
+
         <Link to="https://www.notion.so/Safehub-19534c722e4280a69ff3e3b0650b9136?pvs=4" className="project-item">
           <span className="project-number">01 //</span>
           <span className="project-name">Safehub</span>
@@ -40,6 +43,30 @@ const UXProjects = () => {
           <span className="project-name">Calori.e</span>
           <span className="project-line"></span>
           <span className="project-year">2023</span>
+        </Link>
+
+        <h1 className="heading">cs <a href="#" className="staricon">✶</a> projects</h1>
+
+        <Link to="https://github.com/tissuepy/StudyHive" className="project-item">
+          <span className="project-number">01 //</span>
+          <span className="project-name">StudyHive</span>
+          <span className="project-line"></span>
+          <span className="project-year">2024</span>
+        </Link>
+        
+        <Link to="https://github.com/tissuepy/biometricanalysis" className="project-item">
+          <span className="project-number">02 //</span>
+          <span className="project-name">FingerScan</span>
+          <span className="project-line"></span>
+          <span className="project-year">2025</span>
+        </Link>
+
+        <Link to="https://easy-iron-95a.notion.site/Wardrobe-19534c722e4280ba91c5f5db71c5f47e" className="project-item">
+          <span className="project-number">03 //</span>
+          <span className="project-name">PySurvey</span>
+          <span className="project-line"></span>
+          
+          <span className="project-year">2025</span>
         </Link>
       </div>
     </div>

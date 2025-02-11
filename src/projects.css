@@ -22,6 +22,17 @@
   align-items: center;
   gap: 5px;
   width: 100%;
+  margin-top: 400px;
+  font-size: 1.2rem;
+}
+
+.nav-bar3 {
+  display: flex;
+  margin-top: 75px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
   font-size: 1.2rem;
 }
 

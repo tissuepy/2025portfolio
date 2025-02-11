@@ -7,65 +7,197 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center; /* Center everything */
   max-width: 900px;
   width: 100%;
   padding: 100px;
+  text-align: center; /* Ensure text elements are centered */
 }
 
-/* Center header content */
+/* Header container now includes image */
 .header-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  max-width: 850px;
-}
-
-
-.nav-bar {
-  display: flex;
   gap: 20px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #00000025;
-  color: #ffffff;
-  border-color: #ffffff
 }
 
+/* Profile image styling */
+.profile-image {
+  width: 150px; /* Adjust based on preference */
+  height: 150px;
+  border-radius: 100px; /* Slight rounding */
+  object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.488);
+  margin-top: -50px;
+}
+
+/* Title with subtitle */
+.heading-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 .heading {
-  font-size: 2.5rem;
-  font-family: serif;
+  font-size: 2.3rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center; /* Ensures text is properly aligned */
+  gap: 10px; /* Creates spacing between title and subheading */
 }
 
+/* Red small text next to name */
+.subheading {
+  font-size: 1.2rem;
+  color: rgb(255, 48, 48);
+  font-weight: 600;
+}
+
+/* Navigation bar */
+.nav-bar {
+  display: flex;
+  gap: 10px; /* Reduce spacing between items */
+  padding: 5px 10px; /* Reduce padding to make it smaller */
+  border-radius: 10px; /* Slightly smaller border radius */
+  margin-top: 20px;
+  background-color: #00000025;
+  font-size: 1rem; 
+  border-color:rgb(255, 255, 255);
+}
+
+/* Text block */
 .text-block {
   width: 100%;
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   max-width: 900px;
 }
 
+/* Footer styles */
+.footer {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+  font-size: 1.1rem;
+}
+
+.footer-link:hover {
+  color: rgb(255, 0, 0);
+}
+
+.underline {
+    text-decoration: underline dotted;
+    color: rgb(255, 48, 48);
+  }
+  
+  .underline:hover {
+    color: rgb(255, 48, 48);
+  }
+
+.underline:hover {
+  color: rgb(255, 0, 0);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.0rem;
+}
+
+.nav-link:hover {
+  color: rgb(255, 0, 0);
+}
+
+.staricon {
+  color: rgb(255, 0, 0);
+}
+
+.staricon:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Center the entire About container */
+.about-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1000px; /* Ensures content doesn’t stretch too far */
+  padding: 40px;
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Keep the navigation bar centered */
+.nav-bar2 {
+  display: flex;
+  margin-top: 75px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  margin: 0 10px; /* Adds spacing between nav items */
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.nav-item:hover {
+  color: rgb(255, 21, 21);
+}
+
+/* About page content layout */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 80px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Image formatting */
+.about-image {
+  width: 280px; /* Adjust width for a rectangular shape */
+  height: 360px; /* Adjust height for a rectangular shape */
+  border-radius: 10px; /* Curved edges */
+  margin-left: -100px;
+  object-fit: cover;
+}
+
+/* Left-aligned text */
+.about-text {
+  flex: 1;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.text-block {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Underlined links */
 .underline {
   text-decoration: underline dotted;
   color: rgb(255, 48, 48);
 }
 
 .underline:hover {
-  color:  rgb(255, 48, 48);
+  color: rgb(255, 48, 48);
 }
-
-.link { 
-  color: rgb(165, 165, 165);
-  font-size: 1.2rem;
-
-}
-
-.link:hover {
-  color: rgb(255, 0, 0); /* Change to a darker shade of blue on hover */
-}
-
-.coloralt {
-  color: rgb(201, 0, 0); 
-}
-
-
