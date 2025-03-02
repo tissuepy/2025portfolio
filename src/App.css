@@ -162,8 +162,7 @@ html, body {
 
 
 .nav-bar3 {
-  display: flex;
-  margin-top: 120px; /* Increase margin to bring it down */
+  display: flex; /* Increase margin to bring it down */
   justify-content: center;
   align-items: center;
   gap: 5px;
@@ -188,7 +187,6 @@ html, body {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-top: 80px;
   width: 100%;
   max-width: 900px;
   margin-top: 50px;
@@ -200,7 +198,7 @@ html, body {
   width: 280px; /* Adjust width for a rectangular shape */
   height: 360px; /* Adjust height for a rectangular shape */
   border-radius: 10px; /* Curved edges */
-  margin-left: -100px;
+  margin-left: -60px;
   object-fit: cover;
 }
 
@@ -288,7 +286,7 @@ html, body {
 
 /* Add space below the photo library */
 .content-wrapper {
-  padding-bottom: 0px; /* Adjust the space as needed */
+  padding-bottom: 10000px; /* Adjust the space as needed */
 }
 
 
@@ -378,14 +376,6 @@ html, body {
   background-color: white;
   width: 100%;
   margin-top: 10px;
-}
-
-.nav-bar3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 0px 0;
 }
 
 

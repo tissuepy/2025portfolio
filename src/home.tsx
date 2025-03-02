@@ -14,7 +14,7 @@ const PortfolioText = () => {
         </nav>
 
       <div className="header-container">
-        <h1 className="heading">nitish gannu <a href="#" className="staricon">✶</a> product designer</h1>
+        <h1 className="heading">nitish gannu <a href="#" className="staricon">✶</a> data scientist</h1>
       </div>
       
       

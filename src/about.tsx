@@ -9,17 +9,19 @@ const About = () => {
           <a href="/" className="nav-item">HOME</a>
         </span>
         <span className="divider">//</span>
-        <span className="nav-item1">ABOUT ME</span>
+        <span className="nav-item2">
+        <span className="nav-item">ABOUT ME</span>
+        </span>
         <div className="nav-line"></div>
       </nav>
 
       {/* About Me Section */}
       <div className="about-content">
-        <img src="pfp.JPG" alt="Your Image" className="about-image" />
+        <img src="me.JPG" alt="Your Image" className="about-image" />
         <div className="about-text">
           <h1 className="heading">about me</h1>
           <p className="text-block">
-            I am a product designer and data scientist passionate about creating intuitive, data-driven solutions that enhance user experiences. 
+            I am a product designer and data scientist passionate about creating intuitive, data-driven solutions.
             Previously, I worked at <a href="https://www.stamfordhealth.org/care-treatment/research/" className="underline">Stamford Health</a> where I analyzed cancer patient data using machine learning classification models for chemotherapy drug treatments. 
             Currently, I am a UX Researcher & Designer at <a href="https://www.sandboxnu.com/" className="underline">Sandbox</a>  where I'm exploring how specific product design decisions impact user behavior and response.
           </p>
@@ -41,12 +43,27 @@ const About = () => {
         </div>
         <div className="square">
           <h3 className="square-title">CURRENTLY BINGING</h3>
-          <p className="square-content">suits - a show about lawyers in nyc; its on Netflix!</p>
+          <p className="square-content">suits - a show about lawyers in nyc; its on netflix!</p>
+        </div>
+      </div>
+
+      <div className="squares-container">
+        <div className="square">
+          <h3 className="square-title">GO-TO FOOD</h3>
+          <p className="square-content">definitely tteokbokki - literally so good, especially with rose sauce</p>
+        </div>
+        <div className="square">
+          <h3 className="square-title">FAVORITE ANIMAL</h3>
+          <p className="square-content">capybaras! they are literally so cute and so chill</p>
+        </div>
+        <div className="square">
+          <h3 className="square-title">DREAM VACATION</h3>
+          <p className="square-content">bora bora is beautiful; definitely going to make a visit sometime after graduation</p>
         </div>
       </div>
 
       <div className="project-list">
-        <h1 className="heading"> <a href="#" className="staricon">✶</a> photography</h1>
+        <h1 className="heading"> photography <a href="#" className="staricon">✶</a></h1>
       </div>
 
       {/* Original Photo Library Section */}
